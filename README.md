@@ -23,14 +23,15 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
    * The normal accuracy score, which tells the ratio of correctly predicted outcomes to the total number of observations, was <b>99% </b> <br>
  But, knowing that the data balance was already 97%, this is not impressive.<br>
   * Precision: The precision score measures the ratio of correctly predicted obervations to the total predicted positive observations. In this case, it was 100% for the healthy (0) status and 87% for high risk status
-  * Recall Score: The recall score, which measures the ratio of correctly predicted positive observations to all predicted observation within that class. Thus,this recall score was also similar in numbers, with a score of healthy (0) was 100% and High-Risk was 89%
-  * f1-score, which is a weighted combination of recall and precision was also in a similar range for both High Risk and Healthy. 100% and 88% respectively.
+  * Recall Score: The recall score, which measures the ratio of correctly predicted positive observations to all predicted observation within that class. Thus,this recall score was also similar in numbers, with a score of healthy (0) was <b>100%</b> and High-Risk was <b>89%</b>
+  * f1-score, which is a weighted combination of recall and precision was also in a similar range for both High Risk and Healthy. <b>100% </b> and <b>88% </b> respectively.
 
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. 
 
-If you do not recommend any of the models, please justify your reasoning.
+With the classification report that provided the scores: precision, accuracy and recall. Along with the, balanced and "normal accu_score", we see that the model yields 95-99% accuracy of predicting the loan status correctly. However, with a sub 90% precision and recall for high risk score (Loan_status of 1). I would want to increase the data within this dataset, with the purpose of creating a more balanced dataset.
+
+With the ultimate assumption that the model balanced accuracy also increases above a <b>98%</b> threshold and both precision and recall scores to be above <b>90%!</b>
+
