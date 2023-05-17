@@ -26,12 +26,24 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   * Recall Score: The recall score, which measures the ratio of correctly predicted positive observations to all predicted observation within that class. Thus,this recall score was also similar in numbers, with a score of healthy (0) was <b>100%</b> and High-Risk was <b>89%</b>
   * f1-score, which is a weighted combination of recall and precision was also in a similar range for both High Risk and Healthy. <b>100% </b> and <b>88% </b> respectively.
 
+* Machine Learning Model 2: Logistic Regression Model with Oversampled data:
+  * Accuracy: I looked at two different accuracy scores: Balanced and "normal" accuracy score
+   * The balanced accuracy score, which is the average of recall within a class was used. Since, the data was now more balanced (83% of data was of healthy loan status). Therefore, the balance accruacy score improved to an <b>99%</b>
+ 
+   * The normal accuracy score, which tells the ratio of correctly predicted outcomes to the total number of observations, was <b>99% </b> <br>
+  * Precision: The precision score measures the ratio of correctly predicted obervations to the total predicted positive observations. In this case, it was 100% for the healthy (0) status and remains at 87% for high risk status
+  * Recall Score: The recall score, which measures the ratio of correctly predicted positive observations to all predicted observation within that class. Thus,this recall score was also similar in numbers, with a score of healthy (0) was <b>100%</b> and High-Risk that improved to an <b>98%</b>
+  * f1-score, which is a weighted combination of recall and precision also improved significantly <b>100% </b> and <b>92% </b> respectively.
 
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. 
 
-With the classification report that provided the scores: precision, accuracy and recall. Along with the, balanced and "normal accu_score", we see that the model yields 95-99% accuracy of predicting the loan status correctly. However, with a sub 90% precision and recall for high risk score (Loan_status of 1). I would want to increase the data within this dataset, with the purpose of creating a more balanced dataset.
+For the initial model: the classification report that provided the scores: precision, accuracy and recall. Along with the, balanced and "normal accu_score", we see that the model yields 95-99% accuracy of predicting the loan status correctly. However, with a sub 90% precision and recall for high risk score (Loan_status of 1). I would want to increase the data within this dataset, with the purpose of creating a more balanced dataset.
 
 With the ultimate assumption that the model balanced accuracy also increases above a <b>98%</b> threshold and both precision and recall scores to be above <b>90%!</b>
+
+Then, using the oversampled dataset, using the Logistically Regression Model: All the relative scores improve drastically:
+balanced_accuracy_score (new 99%), recall of the high risk (98%). While the balance of recall score improves, thus improving the f1-score to 92%.
+**Therefore, I would recommend this new model.**
 
