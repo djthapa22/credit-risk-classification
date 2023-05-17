@@ -9,20 +9,22 @@ Within this module, the <ins>purpose</ins> of the excercise was to train and eva
 * Stages of the machine learning method:
 1. Split the data into training and testing sets post variable determination
 2. Create a Logistic Regression Model with original data
-3. 
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+3. Save and create a prediction model with the testing data to create a predictio on loan status
+
 
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Machine Learning Model 1: Logistic Regression Model with the below results metrics:
+  * Accuracy: I looked at two different accuracy scores: Balanced and "normal" accuracy score
+   * The balanced accuracy score, which is the average of recall within a class was used. Since, the data was imbalanced (97% of data was of healthy loan status). Therefore, the balance accruacy score was <b>94%<b>
+   * The normal accuracy score, which tells the ratio of correctly predicted outcomes to the total number of observations, was <b>99% <b> <br>
+ But, knowing that the data balance was already 97%, this is not impressive.
+  * Precision: The precision score was 100% for the healthy (0) status and 87% for high risk status
+  * Recall Score:  Similarly, the recall score of healthy (0) was 100% and High-Risk was 89%
+  * f1-score was also in a similar range for both High Risk and Healthy. 100% and 88% respectively.
 
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 ## Summary
 
