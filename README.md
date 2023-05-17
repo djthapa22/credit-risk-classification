@@ -18,12 +18,13 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1: Logistic Regression Model with the below results metrics:
   * Accuracy: I looked at two different accuracy scores: Balanced and "normal" accuracy score
-   * The balanced accuracy score, which is the average of recall within a class was used. Since, the data was imbalanced (97% of data was of healthy loan status). Therefore, the balance accruacy score was <b>94%<b>
-   * The normal accuracy score, which tells the ratio of correctly predicted outcomes to the total number of observations, was <b>99% <b> <br>
- But, knowing that the data balance was already 97%, this is not impressive.
-  * Precision: The precision score was 100% for the healthy (0) status and 87% for high risk status
-  * Recall Score:  Similarly, the recall score of healthy (0) was 100% and High-Risk was 89%
-  * f1-score was also in a similar range for both High Risk and Healthy. 100% and 88% respectively.
+   * The balanced accuracy score, which is the average of recall within a class was used. Since, the data was imbalanced (97% of data was of healthy loan status). Therefore, the balance accruacy score was <b>94%</b>
+ 
+   * The normal accuracy score, which tells the ratio of correctly predicted outcomes to the total number of observations, was <b>99% </b> <br>
+ But, knowing that the data balance was already 97%, this is not impressive.<br>
+  * Precision: The precision score measures the ratio of correctly predicted obervations to the total predicted positive observations. In this case, it was 100% for the healthy (0) status and 87% for high risk status
+  * Recall Score: The recall score, which measures the ratio of correctly predicted positive observations to all predicted observation within that class. Thus,this recall score was also similar in numbers, with a score of healthy (0) was 100% and High-Risk was 89%
+  * f1-score, which is a weighted combination of recall and precision was also in a similar range for both High Risk and Healthy. 100% and 88% respectively.
 
 
 ## Summary
