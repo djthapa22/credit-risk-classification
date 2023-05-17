@@ -1,13 +1,15 @@
 # Credit-Risk-classification: Reporting
 
 ## Overview of the Analysis
+Within this module, the <ins>purpose</ins> of the excercise was to train and evaluate a supervised machine learning algoright to detect loan credit worthiness. This includes the following methods:
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
+* Financial information was based on the following  target and feature variables:
+  * Features: loan_size, interest_rate,borrower_income, debt_to_income ratio, num_of_accoutns and deragotaory_marks
+  * Target:  Loan_Status- 1 for High Risk and 0 for Healthy.
+* Stages of the machine learning method:
+1. Split the data into training and testing sets post variable determination
+2. Create a Logistic Regression Model with original data
+3. 
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
 ## Results
