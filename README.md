@@ -39,7 +39,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. 
 
-For the initial model: the classification report that provided the scores: precision, accuracy and recall. Along with the, balanced and "normal accu_score", we see that the model yields 95-99% accuracy of predicting the loan status correctly. However, with a sub 90% precision and recall for high risk score (Loan_status of 1). I would want to increase the data within this dataset, with the purpose of creating a more balanced dataset.
+For the initial model: the classification report that provided the scores: precision, accuracy and recall. Along with the, balanced and "normal accu_score", we see that the model yields 94-99% accuracy of predicting the loan status correctly. However, with a sub 90% precision and recall for high risk score (Loan_status of 1). I would want to increase the data within this dataset, with the purpose of creating a more balanced dataset.
 
 With the ultimate assumption that the model balanced accuracy also increases above a <b>98%</b> threshold and both precision and recall scores to be above <b>90%!</b>
 
