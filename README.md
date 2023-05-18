@@ -1,7 +1,7 @@
 # Credit-Risk-classification: Reporting
 
 ## Overview of the Analysis
-Within this module, the <ins>purpose</ins> of the excercise was to train and evaluate a supervised machine learning algoright to detect loan credit worthiness. This includes the following methods:
+Within this module, the <ins>purpose</ins> of the excercise was to train and evaluate a supervised machine learning algorithm to detect loan credit worthiness. This includes the following methods:
 
 * Financial information was based on the following  target and feature variables:
   * Features: loan_size, interest_rate,borrower_income, debt_to_income ratio, num_of_accoutns and deragotaory_marks
